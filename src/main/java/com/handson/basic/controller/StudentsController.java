@@ -95,7 +95,7 @@ public class StudentsController {
     }
 
     @RequestMapping(value = "", method = RequestMethod.POST)
-    public ResponseEntity<?> insertStudentttt(@RequestBody StudentIn studentIn)
+    public ResponseEntity<?> insertStudentttt29(@RequestBody StudentIn studentIn)
     {
         Student student = studentIn.toStudent();
         student = studentService.save(student);
